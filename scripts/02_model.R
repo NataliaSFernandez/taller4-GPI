@@ -1,4 +1,5 @@
-
+# scripts/02_model.R 
+# src 02_model_vivienda.R
 # Ajusta modelo y exporta tabla de resultados
 
 source("src/02_model_vivienda.R")

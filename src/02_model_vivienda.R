@@ -1,3 +1,5 @@
+#Modelo estadistico para predecir el precio de una vivienda en función de sus características
+
 fit_vivienda_model <- function(data_clean) {
   modelo <- lm(precio ~ m2 + estrato + antiguedad, data = data_clean)
   return(modelo)
