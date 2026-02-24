@@ -1,7 +1,14 @@
 # scripts/01_simulate.R
 # Ejecuta la simulación y guarda el dataset en data/raw/
-# Carga librerías usadas en ejecución.
+
 # La función de simulación se encuentra en src/00_simulate_data.R
+#Comentario adicional para prueba de commit
+
+
+# Carga librerías usadas en ejecución.
+#CAMBIOS en analisis exploratorio. 
+
+install.packages("dplyr")y
 library(dplyr)
 
 source("src/00_simulate_data.R")
