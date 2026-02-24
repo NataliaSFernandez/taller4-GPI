@@ -11,12 +11,12 @@ plot_precio_vs_m2 <- function(df) {
     df$precio,
     pch = 19,
     col = "darkblue",
-    xlab = "Área vivienda (m2)",
-    ylab = "Precio vivienda (millones COP)",
+    xlab = "Área vivienda (m^2)",
+    ylab = "Precio vivienda (M COP)",
     main = "Precio vivienda vs Área"
   )
 
-  abline(lm(precio ~ m2, data = df), col = "red", lwd = 2)
+  abline(lm(precio ~ m2, data = df), col = "blue", lwd = 2)
 
   legend(
     "topleft",
