@@ -2,7 +2,7 @@ data <- read.csv("data/processed/vivienda_clean.csv", stringsAsFactors = FALSE)
 # Ver estructura
 str(data)
 
-summary(data[, c("m", "habitaciones", "estrato", "antiguedad", "precio")])
+summary(data[, c("m2", "habitaciones", "estrato", "antiguedad", "precio")])
 
 descriptivas <- data.frame(
   variable = c("m2", "habitaciones", "estrato", "antiguedad", "precio"),
