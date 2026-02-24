@@ -1,7 +1,7 @@
 # scripts/01_simulate.R
 # Ejecuta la simulación y guarda el dataset en data/raw/
-
 # Carga librerías usadas en ejecución.
+# La función de simulación se encuentra en src/00_simulate_data.R
 library(dplyr)
 
 source("src/00_simulate_data.R")

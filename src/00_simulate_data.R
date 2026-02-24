@@ -1,5 +1,5 @@
 
-# Funciones reutilizables (NO escribir archivos aquí)
+# Funciones reutilizables 
 
 simulate_vivienda_raw <- function(n = 1200, seed = 123) {
   stopifnot(n > 10)

@@ -1,6 +1,6 @@
 # scripts/02_process.R
 # Lee datos RAW, los procesa y guarda datos PROCESSED
-
+#01_CLEAN_DATA.R contiene la función clean_vivienda_data() que hace el procesamiento
 source("src/01_clean_data.R")
 
 # Leer datos raw
