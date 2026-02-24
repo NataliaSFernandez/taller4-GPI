@@ -8,7 +8,7 @@
 # Carga librerías usadas en ejecución.
 #CAMBIOS en analisis exploratorio. 
 
-install.packages("dplyr")y
+install.packages("dplyr")
 library(dplyr)
 
 source("src/00_simulate_data.R")
