@@ -1,7 +1,9 @@
 # scripts/02_process.R
 # Lee datos RAW, los procesa y guarda datos PROCESSED
 #01_CLEAN_DATA.R contiene la función clean_vivienda_data() que hace el procesamiento
-source("src/01_clean_data.R")
+
+url <- "https://zenodo.org/records/18893190/files/vivienda_raw.csv?download=1"
+raw_data <- read.csv(url)
 
 # Leer datos raw
 raw_data <- read.csv(
